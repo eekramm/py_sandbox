@@ -5,7 +5,7 @@ url = "https://icanhazdadjoke.com/search"
 response = requests.get(
     url, 
     headers={"Accept": "application/json"},
-    params={"term": "fruit"}
+    params={"term": "sister"}
 )
 
 # print(response.text)
